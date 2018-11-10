@@ -24,11 +24,19 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By Ahmed Elbasha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTe-zr-KkW">
+                                <rect key="frame" x="77" y="627" width="221.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.098631031811237335" green="0.078336961567401886" blue="0.38028082251548767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BTe-zr-KkW" secondAttribute="bottom" constant="20" id="5ja-jz-EKn"/>
                             <constraint firstItem="Na1-s8-ch4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xn4-vP-Jfz"/>
                             <constraint firstItem="Na1-s8-ch4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZM5-q5-5Rg"/>
+                            <constraint firstItem="BTe-zr-KkW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zqQ-Dg-0rJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
