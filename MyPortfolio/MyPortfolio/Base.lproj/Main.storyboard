@@ -10,6 +10,54 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--About Me-->
+        <scene sceneID="sPF-Mm-3bU">
+            <objects>
+                <viewController id="1r8-zH-EYL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f7I-yZ-kEu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epp-kx-xXi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Portfolio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpe-AS-zIn">
+                                        <rect key="frame" x="130.5" y="10" width="114.5" height="25"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098631031811237335" green="0.078336961567401886" blue="0.38028082251548767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DpN-Ma-QuR"/>
+                                    <constraint firstItem="wpe-AS-zIn" firstAttribute="centerY" secondItem="epp-kx-xXi" secondAttribute="centerY" id="v95-jC-nlq"/>
+                                    <constraint firstItem="wpe-AS-zIn" firstAttribute="centerX" secondItem="epp-kx-xXi" secondAttribute="centerX" id="yot-6Q-1c8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MhD-yc-0pu">
+                                <rect key="frame" x="0.0" y="65" width="375" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098631031811237335" green="0.078336961567401886" blue="0.38028082251548767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MhD-yc-0pu" firstAttribute="leading" secondItem="dQF-WH-jSQ" secondAttribute="leading" id="CoQ-ta-xMA"/>
+                            <constraint firstItem="epp-kx-xXi" firstAttribute="leading" secondItem="dQF-WH-jSQ" secondAttribute="leading" id="FmM-j9-fM2"/>
+                            <constraint firstItem="epp-kx-xXi" firstAttribute="trailing" secondItem="dQF-WH-jSQ" secondAttribute="trailing" id="MVm-nv-NPz"/>
+                            <constraint firstItem="MhD-yc-0pu" firstAttribute="top" secondItem="epp-kx-xXi" secondAttribute="bottom" id="a4c-sR-xOl"/>
+                            <constraint firstItem="MhD-yc-0pu" firstAttribute="trailing" secondItem="dQF-WH-jSQ" secondAttribute="trailing" id="dts-OV-39F"/>
+                            <constraint firstItem="MhD-yc-0pu" firstAttribute="bottom" secondItem="dQF-WH-jSQ" secondAttribute="bottom" id="gag-MT-Wiu"/>
+                            <constraint firstItem="epp-kx-xXi" firstAttribute="top" secondItem="dQF-WH-jSQ" secondAttribute="top" id="gmO-CQ-SSi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dQF-WH-jSQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Me" id="SDA-V1-IDB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bmk-X3-V3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="-653.52323838080963"/>
+        </scene>
         <!--Projects-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -71,6 +119,7 @@
                                                             <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstItem="cvs-9x-zVX" firstAttribute="centerY" secondItem="zWy-jw-qOo" secondAttribute="centerY" id="472-lO-yxK"/>
+                                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cvs-9x-zVX" secondAttribute="trailing" constant="20" symbolic="YES" id="EfC-JI-sxh"/>
                                                                 <constraint firstItem="cvs-9x-zVX" firstAttribute="leading" secondItem="zWy-jw-qOo" secondAttribute="leading" constant="8" id="Nxl-zc-Hmj"/>
                                                                 <constraint firstAttribute="height" constant="39" id="Uss-Cz-CO2"/>
                                                             </constraints>
@@ -117,6 +166,54 @@
             </objects>
             <point key="canvasLocation" x="980" y="25.637181409295355"/>
         </scene>
+        <!--Contact-->
+        <scene sceneID="pzA-EZ-QZJ">
+            <objects>
+                <viewController id="qfI-D5-Kn4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aje-12-zVR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-ud-LGr">
+                                <rect key="frame" x="0.0" y="20" width="375" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Portfolio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoE-ym-FBD">
+                                        <rect key="frame" x="130.5" y="10" width="114.5" height="25"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098631031811237335" green="0.078336961567401886" blue="0.38028082251548767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="XoE-ym-FBD" firstAttribute="centerX" secondItem="fjl-ud-LGr" secondAttribute="centerX" id="wNa-De-OaG"/>
+                                    <constraint firstItem="XoE-ym-FBD" firstAttribute="centerY" secondItem="fjl-ud-LGr" secondAttribute="centerY" id="wiv-ZM-19t"/>
+                                    <constraint firstAttribute="height" constant="45" id="xfy-ic-NA9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A89-rd-qk7">
+                                <rect key="frame" x="0.0" y="65" width="375" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098631031811237335" green="0.078336961567401886" blue="0.38028082251548767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fjl-ud-LGr" firstAttribute="leading" secondItem="dMU-4D-gI1" secondAttribute="leading" id="4d0-4p-gNi"/>
+                            <constraint firstItem="fjl-ud-LGr" firstAttribute="trailing" secondItem="dMU-4D-gI1" secondAttribute="trailing" id="6Pr-8q-X5L"/>
+                            <constraint firstItem="A89-rd-qk7" firstAttribute="leading" secondItem="dMU-4D-gI1" secondAttribute="leading" id="9vb-Dc-OSm"/>
+                            <constraint firstItem="A89-rd-qk7" firstAttribute="bottom" secondItem="dMU-4D-gI1" secondAttribute="bottom" id="GpJ-e6-whx"/>
+                            <constraint firstItem="A89-rd-qk7" firstAttribute="trailing" secondItem="dMU-4D-gI1" secondAttribute="trailing" id="gis-XD-f4N"/>
+                            <constraint firstItem="fjl-ud-LGr" firstAttribute="top" secondItem="dMU-4D-gI1" secondAttribute="top" id="h53-4M-3JF"/>
+                            <constraint firstItem="A89-rd-qk7" firstAttribute="top" secondItem="fjl-ud-LGr" secondAttribute="bottom" id="sMJ-PR-kvp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dMU-4D-gI1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" id="Ckm-WS-4QS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFM-Rg-MUP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.39999999999998" y="706.59670164917543"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="u9V-Qu-N2x">
             <objects>
@@ -128,6 +225,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hEv-f6-GaV"/>
+                        <segue destination="1r8-zH-EYL" kind="relationship" relationship="viewControllers" id="zcu-eG-GcF"/>
+                        <segue destination="qfI-D5-Kn4" kind="relationship" relationship="viewControllers" id="xrJ-oU-7VC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2yv-sP-hdK" userLabel="First Responder" sceneMemberID="firstResponder"/>
