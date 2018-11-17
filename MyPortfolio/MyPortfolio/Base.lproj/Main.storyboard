@@ -230,7 +230,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bsg-eb-ReP">
                                         <rect key="frame" x="8" y="20" width="299" height="47"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="czk-xS-qS8">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="czk-xS-qS8">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="47" id="SzF-Tk-tMx"/>
@@ -259,7 +259,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1U-in-Lao">
                                         <rect key="frame" x="8" y="94" width="299" height="47"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xHj-5b-nLc">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message" translatesAutoresizingMaskIntoConstraints="NO" id="xHj-5b-nLc">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="47" id="3J8-Gg-xzF"/>
@@ -288,7 +288,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnK-VE-2hw">
                                         <rect key="frame" x="8" y="169" width="299" height="47"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3WD-MJ-uri">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linkedin-converted" translatesAutoresizingMaskIntoConstraints="NO" id="3WD-MJ-uri">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="59" id="BJT-r4-UzX"/>
@@ -318,7 +318,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIL-fq-Ch4">
                                         <rect key="frame" x="8" y="244" width="299" height="47"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xMG-bQ-zXc">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Github" translatesAutoresizingMaskIntoConstraints="NO" id="xMG-bQ-zXc">
                                                 <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="59" id="0c4-lL-OGz"/>
@@ -410,9 +410,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Github" width="329" height="329"/>
         <image name="about" width="30" height="30"/>
         <image name="background" width="792" height="594"/>
         <image name="briefcase" width="30" height="30"/>
+        <image name="linkedin-converted" width="595" height="842"/>
+        <image name="message" width="30" height="30"/>
         <image name="phone" width="30" height="30"/>
     </resources>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
